@@ -7,13 +7,13 @@
  ! Visit http://www.pragmaticprogrammer.com/titles/csjava for more book information.
 -->
 <body></body>
-<script src="http://gamingJS.com/Three.js"></script>
-<script src="http://gamingJS.com/physi.js"></script>
-<script src="http://gamingJS.com/ChromeFixes.js"></script>
+<script src="../gamingJS/Three.js"></script>
+<script src="../gamingJS/physi.js"></script>
+<script src="../gamingJS/ChromeFixes.js"></script>
 <script>
   // Physics settings
-  Physijs.scripts.ammo = 'http://gamingJS.com/ammo.js';
-  Physijs.scripts.worker = 'http://gamingJS.com/physijs_worker.js';
+  Physijs.scripts.ammo = '../gamingJS/ammo.js';
+  Physijs.scripts.worker = '../gamingJS/physijs_worker.js';
 
   // This is where stuff in our game will happen:
   var scene = new Physijs.Scene({ fixedTimeStep: 2 / 60 });
